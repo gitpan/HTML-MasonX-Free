@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package HTML::MasonX::Free::Compiler;
 {
-  $HTML::MasonX::Free::Compiler::VERSION = '0.002';
+  $HTML::MasonX::Free::Compiler::VERSION = '0.003';
 }
 use parent 'HTML::Mason::Compiler::ToObject';
 # ABSTRACT: an HTML::Mason compiler that can reject more input
@@ -132,7 +132,7 @@ sub component_content_call_end
 
     $c->{last_body_code_type} = 'component_content_call_end';
 }
-# BEGIN DIRECT THEFT FROM HTML-Mason 1.50
+# END DIRECT THEFT FROM HTML-Mason 1.50
 
 1;
 
@@ -146,7 +146,7 @@ HTML::MasonX::Free::Compiler - an HTML::Mason compiler that can reject more inpu
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 OVERVIEW
 

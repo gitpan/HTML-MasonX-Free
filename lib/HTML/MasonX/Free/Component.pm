@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package HTML::MasonX::Free::Component;
 {
-  $HTML::MasonX::Free::Component::VERSION = '0.002';
+  $HTML::MasonX::Free::Component::VERSION = '0.003';
 }
 use parent 'HTML::Mason::Component::FileBased';
 # ABSTRACT: a component with a "main" method, not just a bunch of text
@@ -34,7 +34,7 @@ HTML::MasonX::Free::Component - a component with a "main" method, not just a bun
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 OVERVIEW
 

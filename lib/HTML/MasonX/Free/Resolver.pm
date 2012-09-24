@@ -1,6 +1,6 @@
 package HTML::MasonX::Free::Resolver;
 {
-  $HTML::MasonX::Free::Resolver::VERSION = '0.002';
+  $HTML::MasonX::Free::Resolver::VERSION = '0.003';
 }
 use Moose;
 # ABSTRACT: a resolver that lets you specialize components with dir overlays
@@ -122,7 +122,7 @@ HTML::MasonX::Free::Resolver - a resolver that lets you specialize components wi
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 OVERVIEW
 

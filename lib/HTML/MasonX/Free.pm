@@ -1,6 +1,6 @@
 package HTML::MasonX::Free;
 {
-  $HTML::MasonX::Free::VERSION = '0.002';
+  $HTML::MasonX::Free::VERSION = '0.003';
 }
 use strict;
 use warnings;
@@ -19,7 +19,7 @@ HTML::MasonX::Free - a secret society of HTML::Mason-using throwback modules
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 OVERVIEW
 

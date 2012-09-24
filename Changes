@@ -1,5 +1,9 @@
 Release history for HTML-MasonX-Free
 
+0.003     2012-09-24 14:36:23 America/New_York
+          HTML::MasonX::Free::Request to eliminate the wrapping chain; see
+          4497ab8 for explanation
+
 0.002     2012-09-24 11:21:21 America/New_York
           combined MasonX::Resolver::AutoInherit and MasonX::Component::RunMain
 

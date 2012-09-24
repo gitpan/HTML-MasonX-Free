@@ -32,8 +32,10 @@ my %WriteMakefileArgs = (
     "HTML::Mason::Compiler::ToObject" => 0,
     "HTML::Mason::Component::FileBased" => 0,
     "HTML::Mason::Exceptions" => 0,
+    "HTML::Mason::Request" => 0,
     "HTML::Mason::Tools" => 0,
     "List::AllUtils" => 0,
+    "Log::Any" => 0,
     "Moose" => 0,
     "Params::Validate" => 0,
     "namespace::autoclean" => 0,
@@ -41,7 +43,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

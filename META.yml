@@ -24,8 +24,10 @@ requires:
   HTML::Mason::Compiler::ToObject: 0
   HTML::Mason::Component::FileBased: 0
   HTML::Mason::Exceptions: 0
+  HTML::Mason::Request: 0
   HTML::Mason::Tools: 0
   List::AllUtils: 0
+  Log::Any: 0
   Moose: 0
   Params::Validate: 0
   namespace::autoclean: 0
@@ -35,7 +37,7 @@ requires:
 resources:
   homepage: https://github.com/rjbs/HTML-MasonX-Free
   repository: https://github.com/rjbs/HTML-MasonX-Free.git
-version: 0.002
+version: 0.003
 x_Dist_Zilla:
   plugins:
     -
@@ -137,7 +139,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::ReportVersions::Tiny
       name: '@RJBS/ReportVersions::Tiny'
-      version: 1.06
+      version: 1.05
     -
       class: Dist::Zilla::Plugin::Prereqs
       config:
