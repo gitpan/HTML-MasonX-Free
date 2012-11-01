@@ -1,6 +1,6 @@
 package HTML::MasonX::Free::Resolver;
 {
-  $HTML::MasonX::Free::Resolver::VERSION = '0.003';
+  $HTML::MasonX::Free::Resolver::VERSION = '0.004';
 }
 use Moose;
 # ABSTRACT: a resolver that lets you specialize components with dir overlays
@@ -55,9 +55,9 @@ sub get_info {
   # the resolver. -- rjbs, 2012-09-19
   if (
     ! $self->allow_unusual_comp_roots
-    and ($comp_root_key ne 'MAIN' or $comp_root_path ne '/-')
+    and ($comp_root_key ne 'MAIN' or $comp_root_path !~ m{\A[\\/]-\z})
   ) {
-    croak "when using HTML::MasonX::Resolver::AutoInherit, you must either "
+    croak "when using HTML::MasonX::Free::Resolver, you must either "
         . "set the comp_root to '/-' or set allow_unusual_comp_roots to true";
   }
 
@@ -122,7 +122,7 @@ HTML::MasonX::Free::Resolver - a resolver that lets you specialize components wi
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 OVERVIEW
 

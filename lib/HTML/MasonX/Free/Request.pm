@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package HTML::MasonX::Free::Request;
 {
-  $HTML::MasonX::Free::Request::VERSION = '0.003';
+  $HTML::MasonX::Free::Request::VERSION = '0.004';
 }
 use parent 'HTML::Mason::Request';
 # ABSTRACT: a request class that eliminates the wrapping chain
@@ -167,7 +167,7 @@ HTML::MasonX::Free::Request - a request class that eliminates the wrapping chain
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

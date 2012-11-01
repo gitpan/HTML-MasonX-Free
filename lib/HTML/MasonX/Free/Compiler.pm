@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package HTML::MasonX::Free::Compiler;
 {
-  $HTML::MasonX::Free::Compiler::VERSION = '0.003';
+  $HTML::MasonX::Free::Compiler::VERSION = '0.004';
 }
 use parent 'HTML::Mason::Compiler::ToObject';
 # ABSTRACT: an HTML::Mason compiler that can reject more input
@@ -146,7 +146,7 @@ HTML::MasonX::Free::Compiler - an HTML::Mason compiler that can reject more inpu
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 OVERVIEW
 
