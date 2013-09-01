@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package HTML::MasonX::Free::Component;
 {
-  $HTML::MasonX::Free::Component::VERSION = '0.004';
+  $HTML::MasonX::Free::Component::VERSION = '0.005';
 }
 use parent 'HTML::Mason::Component::FileBased';
 # ABSTRACT: a component with a "main" method, not just a bunch of text
@@ -34,7 +34,7 @@ HTML::MasonX::Free::Component - a component with a "main" method, not just a bun
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 OVERVIEW
 
@@ -67,7 +67,7 @@ Ricardo Signes <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Ricardo Signes.
+This software is copyright (c) 2013 by Ricardo Signes.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
